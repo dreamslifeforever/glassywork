@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const SHOWCASE_ITEMS = [
@@ -62,7 +61,6 @@ export default function Home() {
 
         {/* HERO */}
         <section className="hero">
-          <Image src="/without bgg.png" alt="Glassywork" width={160} height={160} className="hero-mascot" priority />
           <div className="hero-label">
             <span className="hero-label-dot" />
             Building on Solana
@@ -332,7 +330,6 @@ export default function Home() {
 
         {/* CTA */}
         <section className="cta-section">
-          <Image src="/without bgg.png" alt="" width={80} height={80} className="cta-mascot" />
           <h2>Start <strong>exploring</strong></h2>
           <p>
             Dive into the glass architecture. Browse structures, read the docs, or follow us for updates.
